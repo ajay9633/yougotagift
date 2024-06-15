@@ -9,7 +9,7 @@ class PurchaseOrder(models.Model):
 
     @api.model
     def get_dashboard_values(self):
-        """This method returns values to the dashboard in sale order views."""
+        """This method returns values to the dashboard in purchase order views."""
         result = {
             'total_orders': 0,
             'total_purchase_untaxed_amount': 0,
