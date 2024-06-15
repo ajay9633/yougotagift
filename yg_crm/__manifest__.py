@@ -8,6 +8,7 @@
 
     'description': """
         Sales Team CRM Access
+        Sales Team Team Lead Can see all the Leads of that particular Sales Team's CRM Data
     """,
 
     'author': "Ajaykrishnap",
